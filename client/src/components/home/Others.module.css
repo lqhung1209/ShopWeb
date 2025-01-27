@@ -1,0 +1,40 @@
+.others {
+  padding-top: 20px;
+  color: #495057;
+  font-size: 12px;
+}
+
+.special {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.othersRow1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  align-items: center;
+  height: 150px;
+}
+
+.othersRow2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  height: 150px;
+}
+
+.subcribe {
+  text-align: right;
+}
+
+.subcribe input {
+  width: 70%;
+  height: 50px;
+}
+
+.subcribe button {
+  height: 50px;
+  background-color: #212529;
+}

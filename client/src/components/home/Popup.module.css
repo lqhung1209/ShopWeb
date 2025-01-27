@@ -1,0 +1,64 @@
+.popupOverlay {
+  position: fixed;
+  z-index: 9;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup {
+  background-color: #ffffff;
+  border: 1px solid #bebebe;
+  border-radius: 2px;
+  padding: 12px 16px;
+  position: relative;
+  max-width: 700px;
+}
+
+.popupClose {
+  position: absolute;
+  right: 8px;
+  top: 4px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.popupContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.popupContainer img {
+  width: 100%;
+}
+
+.popupContent .name {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.popupContent .price {
+  font-size: 14px;
+  color: #495057;
+}
+
+.popupContent .desc {
+  font-size: 12px;
+  color: #495057;
+}
+
+.popupContent button {
+  background-color: #212529;
+  padding: 10px 15px;
+}
+
+.icon {
+  width: 12px;
+  margin-right: 5px;
+}

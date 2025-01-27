@@ -1,0 +1,34 @@
+tr td {
+  font-size: 14px;
+  color: #495057;
+  max-width: 50px;
+}
+
+.cartImg {
+  width: 100px;
+}
+
+.cartImg img {
+  width: 100%;
+}
+
+.name {
+  max-width: 150px;
+}
+
+.actions button {
+  height: 100%;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.actions svg {
+  width: 12px;
+}
+
+.actions svg:hover {
+  cursor: pointer;
+}

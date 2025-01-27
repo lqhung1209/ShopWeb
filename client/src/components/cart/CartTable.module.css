@@ -1,0 +1,39 @@
+.cartTable {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.cartTable table {
+  width: 100%;
+  text-align: center;
+}
+
+.cartTotal {
+  padding: 10px;
+}
+
+.cartActionPage {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.cartActionPage button {
+  height: 30px;
+  border: none;
+  color: #495057;
+}
+
+.cartActionPage button:hover {
+  cursor: pointer;
+}
+
+.cartActionPage button span {
+  color: #000;
+  font-size: 20px;
+}
+
+.cartActionPage button.border {
+  border: #000 1px solid;
+}

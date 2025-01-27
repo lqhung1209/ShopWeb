@@ -1,0 +1,126 @@
+.detail {
+  display: grid;
+  grid-template-columns: 70px 295px auto;
+  gap: 15px;
+  padding-bottom: 40px;
+  margin-top: 30px;
+}
+
+.detail img {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.detailImage img:first-child {
+  margin-top: 13px;
+}
+
+.detailImage img {
+  width: 100%;
+  margin-top: 5px;
+}
+
+.detailInfo {
+  padding-left: 10px;
+}
+
+.detailInfo p {
+  font-size: 12px;
+  color: #495057;
+}
+
+.detailInfo .price {
+  font-size: 16px;
+}
+
+.detailInfo .desc {
+  line-height: 1.5;
+}
+
+.detailInfo b {
+  color: #000;
+}
+
+.addCart {
+  border: #495057 1px solid;
+  display: flex;
+  width: 60%;
+}
+
+.addCart p {
+  flex: 1;
+  padding-left: 5%;
+}
+
+.addCart button {
+  border: none;
+  padding: 5px 10px;
+  color: #fff;
+  cursor: pointer;
+  background-color: #212529;
+}
+
+.addCart button:disabled:hover,
+.addCart button[disabled]:hover {
+  cursor: not-allowed;
+}
+
+.actions button {
+  height: 100%;
+  background-color: #fff;
+  color: #000;
+}
+
+.description {
+  width: 60%;
+  padding-bottom: 40px;
+}
+
+.description button {
+  background-color: #212529;
+  height: 40px;
+  padding: 10px 20px;
+}
+
+.description p {
+  font-size: 12px;
+  color: #495057;
+}
+
+.related {
+  padding-bottom: 20px;
+}
+
+.relatedProducts {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  text-align: center;
+}
+
+.relatedProductsDetail img {
+  width: 100%;
+}
+
+.relatedProductsDetail img:hover {
+  width: 100%;
+  opacity: 0.5;
+  cursor: pointer;
+  text-align: center;
+}
+
+.relatedProductsDetail .name {
+  color: #000;
+  font-weight: 550;
+}
+
+.relatedProductsDetail .price {
+  color: #495057;
+  font-size: 12px;
+}
+
+/* .actions a .icon {
+  width: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+} */

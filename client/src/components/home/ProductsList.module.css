@@ -1,0 +1,37 @@
+.productList {
+  padding-top: 20px;
+  color: #495057;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.productList .special {
+  color: #000;
+  font-size: 16px;
+}
+
+.productListContent {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.productListContent img {
+  width: 100%;
+}
+
+.productListContent img:hover {
+  width: 100%;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.productInfo {
+  text-align: center;
+  text-transform: none;
+}
+
+.name {
+  color: #000;
+  font-weight: 550;
+}

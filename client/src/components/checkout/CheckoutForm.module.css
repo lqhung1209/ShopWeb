@@ -1,0 +1,77 @@
+.checkoutForm {
+  display: grid;
+  grid-template-columns: 550px 350px;
+  padding-bottom: 40px;
+}
+
+.formControl input {
+  width: 100%;
+  height: 40px;
+  margin: 15px 0;
+  padding-left: 15px;
+}
+
+.formControl button {
+  height: 40px;
+  width: 150px;
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #212529;
+  color: #fff;
+}
+
+.formControl button:hover {
+  cursor: pointer;
+}
+
+/* Checkout price */
+.checkoutPrice {
+  width: 100%;
+  margin-left: 20px;
+}
+
+.checkoutPriceNumber {
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkoutPriceNumber .name {
+  font-size: 14px;
+  max-width: 60%;
+}
+
+.checkoutPriceNumber p {
+  font-size: 14px;
+  color: #495057;
+  margin-top: 20px;
+}
+
+.checkoutPriceNumber p.normal {
+  font-size: 16px;
+  color: #000;
+}
+
+.checkoutPrice input {
+  width: 100%;
+  height: 40px;
+  padding-left: 10px;
+}
+
+.checkoutPrice button {
+  width: 100%;
+  height: 40px;
+  background-color: #212529;
+}
+
+.errorMessage {
+  margin: auto;
+  width: 90%;
+  border: 1px solid #4771fa;
+  padding: 0.5rem;
+  border-radius: 3px;
+  background: #b9c9ff;
+  text-align: center;
+  border-color: red;
+  background: rgb(255, 176, 176);
+  color: red;
+}

@@ -1,0 +1,39 @@
+.categories {
+  padding-top: 20px;
+  text-align: center;
+  color: #495057;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.categories .special {
+  color: #000;
+  font-size: 16px;
+}
+
+.categoryProduct {
+  max-width: max-content;
+}
+
+.categoryProduct img {
+  width: 100%;
+}
+
+.categoryProduct img:hover {
+  width: 100%;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.categoryProduct .row1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.categoryProduct .row2 {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+}

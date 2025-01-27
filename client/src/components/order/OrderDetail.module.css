@@ -1,0 +1,23 @@
+.orderContainer {
+  min-height: 430px;
+}
+
+.orderInfo {
+  margin-top: 56px;
+  margin-bottom: 50px;
+}
+
+.orderInfo p {
+  color: #495057;
+}
+
+.orderTable {
+  height: 335px;
+  margin-bottom: 20px;
+}
+
+.orderTable table {
+  width: 100%;
+  text-align: center;
+  word-wrap: break-word;
+}

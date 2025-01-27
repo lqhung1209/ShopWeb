@@ -1,0 +1,33 @@
+.shopNavbar h2 {
+  color: #000;
+  text-transform: uppercase;
+}
+
+.shopNavbar h3 {
+  color: #000;
+  padding: 10px;
+  padding-left: 15px;
+  text-transform: uppercase;
+}
+
+.shopNavbar a {
+  color: #495057;
+  padding-left: 15px;
+  display: block;
+  margin-top: 10px;
+}
+
+.shopNavbar a:hover,
+.shopNavbar a:active,
+.shopNavbar a.active {
+  color: #f76707;
+  cursor: pointer;
+}
+
+.category {
+  margin-top: 10px;
+}
+
+.bgblack {
+  background-color: #000;
+}

@@ -1,0 +1,78 @@
+.header {
+  max-width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 50px;
+  display: flex;
+  padding-right: 1%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 20px;
+  color: white;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  margin-left: 15px;
+  font-size: 16px;
+  display: inline;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+
+.nav a:hover,
+.nav a:active,
+.nav a.active {
+  color: #f76707;
+}
+
+.nav a .icon {
+  width: 12px;
+  margin-right: 5px;
+}
+
+.nav a .iconDrop {
+  width: 12px;
+  margin-left: 5px;
+  vertical-align: middle;
+  padding-bottom: 5px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdownContent {
+  display: none;
+  position: absolute;
+  color: #000;
+  background-color: #f1f1f1;
+  min-width: 120px;
+  padding: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdownContent {
+  display: block;
+}
+
+.dropdownContent a:hover {
+  opacity: 0.5;
+  color: #000;
+  background-color: #ddd;
+}

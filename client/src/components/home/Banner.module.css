@@ -1,0 +1,29 @@
+.banner {
+  position: relative;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.bannerAction {
+  position: absolute;
+  left: 5%;
+  top: 40%;
+  width: 200px;
+}
+
+.bannerAction p {
+  font-size: 12px;
+  color: #495057;
+  text-transform: uppercase;
+}
+
+.bannerAction .special {
+  color: #000;
+  font-size: 22px;
+}
+
+.bannerAction button {
+  background-color: #212529;
+}

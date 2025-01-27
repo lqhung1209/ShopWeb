@@ -1,0 +1,9 @@
+.orderTable {
+  height: 335px;
+}
+
+.orderTable table {
+  width: 100%;
+  text-align: center;
+  word-wrap: break-word;
+}

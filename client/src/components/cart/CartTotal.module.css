@@ -1,0 +1,39 @@
+.cartTotal {
+  width: 100%;
+  margin-left: 20px;
+}
+
+.cartTotalPrice {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cartTotalPrice p {
+  font-size: 14px;
+  color: #495057;
+  margin-top: 20px;
+}
+
+.cartTotalPrice p.normal {
+  font-size: 16px;
+  color: #000;
+}
+
+.cartTotal input {
+  width: 100%;
+  height: 40px;
+  padding-left: 10px;
+}
+
+.cartTotal button {
+  width: 100%;
+  height: 40px;
+  background-color: #212529;
+}
+
+.cartTotal .icon {
+  width: 15px;
+  margin-right: 5px;
+  vertical-align: middle;
+  padding-bottom: 3px;
+}
